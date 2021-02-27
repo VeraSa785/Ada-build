@@ -110,4 +110,96 @@ value_2 = "hello"
 print(f"True or False? The value {value_1} is a digit: {value_1.isdigit()}")
 print(f'True or False? The value {value_2} is a digit: {value_2.isdigit()}')
 
+#________________________________________________________________
+
+#Exersizes
+
+# Exersize number 1
+# Assign values to three variables x1, x2, and x3.
+# Print three number equations that show the result of adding 20 to each of the variables.
+# For instance, if x1 = 25, the ouput of our code should be 25 + 20 = 45.
+
+# assign values to 3 variables
+x1 = 1000
+x2 = 2034
+x3 = 11111
+
+# add 20
+amount = 20
+sum1 = x1+amount
+sum2 = x2+amount
+sum3 = x3+amount
+
+# print the equations
+print(f"{x1} + 20 = {sum1}" )
+print(f"{x2} + 20 = {sum2}" )
+print(f"{x3} + 20 = {sum3}" )
+
+#________________________________________________________________
+
+# Common Escape Sequences
+
+# double quotes.
+phrase = "\"We're so glad you're here!\" they said.\n"
+print(phrase) 
+ 
+# new line
+phrase = 'hello \nscholar!\n'
+print(phrase) 
+
+# single backslash
+phrase = "ada\\lovelace"
+print(phrase)
+
+#________________________________________________________________
+
+# String Concatenation and Duplication
+word_1 = "home"
+word_2 = "work"
+
+print(f"You can combine the words {word_1} and {word_2} \
+to make the word {word_1+word_2}.")
+
+print(f"These days, all I seem to do is {3*(word_1+word_2+' ')}.")
+
+#________________________________________________________________
+
+# Indexing/Slicing
+      
+name = "Ada Lovelace"
+name[5] # "o"
+name[20] # IndexError
+name[0:3] # "Ada"
+name[0:8] # "Ada Love"
+name[0:8:2] # "AaLv"
+name[-1] #e
+print (f'I {name[4:8]} {name[0:3]} Community') # "I Love Ada Comminity"
+      
+#________________________________________________________________
+
+# Debugging
+      
+# code block 1
+# print('hello world!)
+      
+print('hello world!') # Debugging
+
+# code block 2
+# a = 3
+# b = 4
+# c = a*a + b***b
+# print(c)
+
+# Debugging
+a = 3
+b = 4
+c = a*a + b**b #here
+print(c)
+      
+# code block 3
+# prnt("hello world!")
+
+print("hello world!") # Debugging
+      
+
 
